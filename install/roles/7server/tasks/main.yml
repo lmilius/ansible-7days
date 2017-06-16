@@ -273,7 +273,7 @@
 ##### end firewall settings #####
 
 - name: Downloading SteamCMD game data
-  shell: "/home/7days/steamcmd/steamcmd.sh +force_install_dir /home/7days/server +login {{steam_user}} +app_update 294420 validate +quit"
+  shell: "/home/7days/steamcmd/steamcmd.sh +force_install_dir /home/7days/server +login {{steam_user}} +app_update 294420 -beta latest_experimental validate +quit"
   args:
     chdir: /home/7days/steamcmd
     executable: /bin/bash
