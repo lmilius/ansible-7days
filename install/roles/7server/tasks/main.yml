@@ -15,7 +15,7 @@
 
 - authorized_key:
     user=7days
-    key="{{ lookup('file', '/home/"{{youruser.stdout}}"/.ssh/id_rsa.pub') }}"
+    key={{ lookup('file', '/home/"{{youruser.stdout}}"/.ssh/id_rsa.pub') }}
     manage_dir=yes
   ignore_errors: true
 

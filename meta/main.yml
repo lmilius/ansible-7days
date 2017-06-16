@@ -1,8 +1,8 @@
 galaxy_info:
-  author: Will Foster (@sadsfae)
+  author: Luke Milius (@lmilius)
   description: Playbook for deploying the 7days to die game server.
 
-  issue_tracker_url: https://github.com/sadsfae/ansible-7days/issues
+  issue_tracker_url: https://github.com/lmilius/ansible-7days/issues
   license: Apache
   min_ansible_version: 1.9
   platforms:
