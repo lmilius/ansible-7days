@@ -36,7 +36,6 @@
   <property name="DropOnDeath"				value="0" />				<!-- 0 = everything, 1 = toolbelt only, 2 = backpack only, 3 = delete all -->
   <property name="DropOnQuit"				value="0" />				<!-- 0 = nothing, 1 = everything, 2 = toolbelt only, 3 = backpack only -->
 
-  <property name="EnemySenseMemory"			value="60" />				<!-- Time, in seconds, that a zombie will pursue something that has been sensed. -->
   <property name="EnemySpawnMode"			value="3" />				<!-- 0 = Disabled 0%, 1 = Very Low 50%, 2 = Low 75%, 3 = Medium 100%, 4 = High 125%, 5 = Very High 150% -->
   <property name="EnemyDifficulty"			value="0" />				<!-- 0 = Normal, 1 = Feral -->
 
@@ -54,6 +53,8 @@
   <property name="AirDropFrequency"						value="72"/>    <!-- How often airdrop occur in game-hours, 0 == never -->
   <property name="AirDropMarker"						value="false"/>	<!-- Sets if a marker is added to map/compass for air drops. -->
   <property name="MaxSpawnedZombies"					value="60"/>    <!-- Making this number too large (more than about 80) may cause servers to run at poor framerates which will effect lag and play quality for clients. -->
+
+  <property name="BloodMoonEnemyCount"                  value="8"/>     <!-- Number of zombies spawned per-player on a blood moon night. -->
 
   <!--
   If your server has a large number of players you can increase this limit to add more wildlife. Animals don't consume as much CPU as zombies.
